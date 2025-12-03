@@ -755,8 +755,3 @@ footer {
     background: rgba(59, 130, 246, 0.1);
     color: var(--accent-blue);
 }
-
-.blue-pill {
-    background: rgba(59, 130, 246, 0.1);
-    color: var(--accent-blue);
-}
