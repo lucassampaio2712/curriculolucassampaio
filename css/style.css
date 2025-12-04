@@ -402,14 +402,27 @@ ul {
     border-radius: 0.5rem;
 }
 
-.project-info-box {
-    background: rgba(0, 0, 0, 0.2);
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    margin-bottom: 2rem;
-    color: var(--text-secondary);
-    font-size: 0.95rem;
+/* 3. Estilo da Lista (ul) */
+.project-info-box ul {
+    list-style: none; /* Remove as bolinhas/pontos padrão */
+    padding-left: 0;
+    margin: 0;
+}
+
+/* 4. Estilo dos Itens da Lista (li) */
+.project-info-box ul li {
+    font-size: 1em;
     line-height: 1.6;
+    padding: 8px 0;
+    color: #555;
+    /* Destaque para o ícone/emoji (garante alinhamento e espaçamento) */
+    text-indent: -1.5em; /* Move o texto de volta para a esquerda */
+    padding-left: 1.5em; /* Cria espaço para o ícone */
+}
+
+/* Remove a linha de separação do último item para um visual mais limpo */
+.project-info-box ul li:last-child {
+    padding-bottom: 0;
 }
 
 .stat-item {
