@@ -403,28 +403,23 @@ ul {
 }
 
 /* 3. Estilo da Lista (ul) */
-.project-info-box ul {
-    list-style: none; /* Remove as bolinhas/pontos padrão */
-    padding-left: 0;
-    margin: 0;
+/* AJUSTE: Garante que o ícone do Dashboard FIIs use o estilo roxo */
+
+/* O ícone do Dashboard FIIs usará esta regra, já que no HTML ele agora tem a classe "purple" */
+.project-icon.purple {
+    background: rgba(139, 92, 246, 0.1);
+    color: var(--accent-purple);
 }
 
-/* 4. Estilo dos Itens da Lista (li) */
-.project-info-box ul li {
-    font-size: 1em;
-    line-height: 1.6;
-    padding: 8px 0;
-    color: #555;
-    /* Destaque para o ícone/emoji (garante alinhamento e espaçamento) */
-    text-indent: -1.5em; /* Move o texto de volta para a esquerda */
-    padding-left: 1.5em; /* Cria espaço para o ícone */
+/* A regra abaixo também precisa ser atualizada para usar a cor roxa, pois é o novo padrão do card */
+.project-features li::before {
+    content: "•";
+    /* Altere a cor do bullet point para a cor roxa, ou use uma variável de tema que se aplique ao purple-theme */
+    color: var(--accent-purple); 
+    position: absolute;
+    left: 0;
+    font-weight: bold;
 }
-
-/* Remove a linha de separação do último item para um visual mais limpo */
-.project-info-box ul li:last-child {
-    padding-bottom: 0;
-}
-
 .stat-item {
     display: flex;
     flex-direction: column;
