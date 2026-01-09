@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Currículo - Lucas Vivas Sampaio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#84ff39", // Neon Green Accent
+                        "primary-dark": "#6cd62b", // Darker shade for hover
+                        "background-light": "#FFFFFF",
+                        "background-dark": "#0a0a0a", // Deep black for dark mode
+                        "surface-light": "#FFFFFF",
+                        "surface-dark": "#1B1B1B", // Dark grey for surfaces in dark mode
+                        "text-light": "#1B1B1B", // Dark text on light bg
+                        "text-dark": "#F3F4F6", // Light text on dark bg
+                        "secondary-text-light": "#4B5563",
+                        "secondary-text-dark": "#9CA3AF",
+                        "accent-black": "#1B1B1B",
+                    },
+                    fontFamily: {
+                        display: ["Inter", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem", 
+                        xl: "0.75rem", 
+                        '2xl': "1rem",
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 25px -4px rgba(0, 0, 0, 0.05)',
+                        'glow': '0 0 20px rgba(132, 255, 57, 0.25)',
+                    }
+                },
+            },
+        };
+    </script>
+<style>
+        html { scroll-behavior: smooth; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #E5E7EB; border-radius: 3px; }
+        .dark ::-webkit-scrollbar-thumb { background: #374151; }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .dark .glass-panel {
+            background: rgba(27, 27, 27, 0.7);
+        }
+    </style>
+<style>
+        body {
+          min-height: max(884px, 100dvh);
+        }
+        .logo {
+
+            width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem não distorça */
+  
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body antialiased transition-colors duration-300 min-h-screen">
+<nav class="sticky top-0 z-50 backdrop-blur-md bg-white/90 dark:bg-[#0a0a0a]/90 border-b border-gray-100 dark:border-gray-800 px-6 py-4 flex justify-between items-center">
+<div class="flex items-center space-x-2">
+<div class="w-8 h-8 bg-accent-black dark:bg-white rounded-lg flex items-center justify-center">
+<span class="font-bold text-primary text-sm tracking-tighter">LV</span>
+</div>
+<span class="font-semibold text-sm tracking-wide uppercase text-accent-black dark:text-white">Lucas Vivas</span>
+</div>
+<button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50" id="theme-toggle">
+<span class="material-icons-round text-gray-500 dark:text-gray-400 text-xl" id="theme-icon">dark_mode</span>
+</button>
+</nav>
+<main class="max-w-md mx-auto px-6 pb-20 pt-8 space-y-10">
+<header class="text-center space-y-6">
+<div class="relative inline-block">
+<img src="21532.jpg" alt="logo" class="logo">
+<div class="absolute bottom-1 right-1 bg-primary w-6 h-6 rounded-full border-4 border-white dark:border-[#0a0a0a] shadow-sm animate-pulse" title="Disponível para trabalho"></div>
+</div>
+<div class="space-y-2">
+<h1 class="text-3xl font-bold text-accent-black dark:text-white tracking-tight leading-tight">Lucas Vivas Sampaio</h1>
+<div class="inline-flex items-center px-3 py-1 bg-gray-100 dark:bg-surface-dark rounded-full">
+<span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Desenvolvedor Front-end</span>
+</div>
+<div class="flex items-center justify-center text-sm text-gray-500 dark:text-gray-400 mt-2 space-x-1">
+<span class="material-icons-round text-sm text-primary">location_on</span>
+<span>Rio de Janeiro — RJ</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="col-span-1 bg-accent-black dark:bg-white hover:opacity-90 text-white dark:text-black py-3 px-4 rounded-xl shadow-lg flex items-center justify-center space-x-2 transition-all active:scale-95 text-sm font-bold" href="mailto:lucas.sampaio27122009@gmail.com">
+<span class="material-icons-round text-primary text-lg">mail</span>
+<span>Contato</span>
+</a>
+<a class="col-span-1 bg-white dark:bg-surface-dark border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary text-accent-black dark:text-white py-3 px-4 rounded-xl shadow-sm flex items-center justify-center space-x-2 transition-all active:scale-95 text-sm font-semibold group" href="https://www.linkedin.com/in/lucasvivassampaio" target="_blank">
+<span class="material-icons-round text-lg text-gray-400 group-hover:text-[#0077b5] transition-colors">link</span>
+<span>LinkedIn</span>
+</a>
+</div>
+</header>
+<section class="border-l-4 border-primary pl-4 py-1">
+<h2 class="text-xs font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-1">Objetivo</h2>
+<p class="text-accent-black dark:text-gray-200 text-sm leading-relaxed font-medium">
+            Atuar como Desenvolvedor de html5 e css3, contribuindo com design, organização e atração de clientes.
+        </p>
+</section>
+<section class="space-y-4">
+<div class="flex items-center justify-between">
+<h3 class="text-lg font-bold text-accent-black dark:text-white">Sobre Mim</h3>
+<div class="h-px bg-gray-200 dark:bg-gray-800 flex-grow ml-4"></div>
+</div>
+<div class="bg-gray-50 dark:bg-surface-dark p-6 rounded-2xl border border-gray-100 dark:border-gray-800">
+<p class="text-secondary-text-light dark:text-secondary-text-dark text-sm leading-relaxed">
+                Estudante com desenvolvimento ativo em desenvolvimento e automação. Tenho experiência prática na criação de sites URL e busco aplicar soluções digitais inteligentes utilizando IA para otimizar processos.
+            </p>
+</div>
+</section>
+<section class="space-y-4">
+<div class="flex items-center justify-between">
+<h3 class="text-lg font-bold text-accent-black dark:text-white">Projeto Destaque</h3>
+<div class="h-px bg-gray-200 dark:bg-gray-800 flex-grow ml-4"></div>
+</div>
+<a href="https://lucassampaio2712.github.io/meta-site/" target="_blank">
+<div class="bg-accent-black dark:bg-surface-dark text-white p-6 rounded-2xl shadow-xl relative overflow-hidden group">
+<div class="absolute -right-12 -top-12 w-40 h-40 bg-primary/20 rounded-full blur-3xl group-hover:bg-primary/30 transition-all duration-500"></div>
+<div class="relative z-10">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h4 class="text-xl font-bold flex items-center gap-2">
+                            META
+                        </h4>
+<span class="text-xs text-gray-400 font-mono mt-1 block">Site da empresa META INTELLIGENT</span>
+</div>
+<span class="text-[10px] font-bold bg-primary text-black px-2 py-1 rounded shadow-glow uppercase tracking-wide">7 Dias Dev</span>
+</div>
+<div class="grid gap-3">
+<div class="flex items-start gap-3 p-2 rounded-lg bg-white/5 border border-white/10">
+<span class="material-icons-round text-primary text-sm mt-0.5">trending_up</span>
+<span class="text-xs text-gray-200">Vídeo propaganda da marca</span>
+</div>
+<div class="flex items-start gap-3 p-2 rounded-lg bg-white/5 border border-white/10">
+<span class="material-icons-round text-primary text-sm mt-0.5">cloud_sync</span>
+<span class="text-xs text-gray-200">Chatbot para dúvidas sobre a emrpresa</span>
+</div>
+<div class="flex items-start gap-3 p-2 rounded-lg bg-white/5 border border-white/10">
+<span class="material-icons-round text-primary text-sm mt-0.5">psychology</span>
+<span class="text-xs text-gray-200">Desenvolvimento acelerado via Gemini</span>
+</div>
+</div>
+</div>
+</div>
+</a>
+</section>
+<section class="space-y-4">
+<div class="flex items-center justify-between">
+<h3 class="text-lg font-bold text-accent-black dark:text-white">Habilidades</h3>
+<div class="h-px bg-gray-200 dark:bg-gray-800 flex-grow ml-4"></div>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="group bg-white dark:bg-surface-dark p-4 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+<div class="flex items-center justify-between mb-2">
+<span class="material-icons-round text-accent-black dark:text-white text-2xl group-hover:text-primary transition-colors">table_view</span>
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<h4 class="font-bold text-sm text-accent-black dark:text-white">Excel &amp; Sheets</h4>
+<p class="text-xs text-gray-500 mt-1">Dashboards &amp; Fórmulas</p>
+</div>
+<div class="group bg-white dark:bg-surface-dark p-4 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+<div class="flex items-center justify-between mb-2">
+<span class="material-icons-round text-accent-black dark:text-white text-2xl group-hover:text-primary transition-colors">smart_toy</span>
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<h4 class="font-bold text-sm text-accent-black dark:text-white">IA Generativa</h4>
+<p class="text-xs text-gray-500 mt-1">Automação &amp; Prompts</p>
+</div>
+<div class="group bg-white dark:bg-surface-dark p-4 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+<div class="flex items-center justify-between mb-2">
+<span class="material-icons-round text-accent-black dark:text-white text-2xl group-hover:text-primary transition-colors">code</span>
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<h4 class="font-bold text-sm text-accent-black dark:text-white">Lógica Prog.</h4>
+<p class="text-xs text-gray-500 mt-1">Noções Fundamentais</p>
+</div>
+<div class="group bg-white dark:bg-surface-dark p-4 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+<div class="flex items-center justify-between mb-2">
+<span class="material-icons-round text-accent-black dark:text-white text-2xl group-hover:text-primary transition-colors">translate</span>
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+</div>
+<h4 class="font-bold text-sm text-accent-black dark:text-white">Inglês</h4>
+<p class="text-xs text-gray-500 mt-1">Nível Intermediário</p>
+</div>
+</div>
+<div class="mt-4">
+<h4 class="text-xs font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-3 ml-1">Soft Skills</h4>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 bg-gray-100 dark:bg-surface-dark border border-transparent hover:border-primary text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium transition-colors">Alta Adaptabilidade</span>
+<span class="px-3 py-1.5 bg-gray-100 dark:bg-surface-dark border border-transparent hover:border-primary text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium transition-colors">Comunicação Clara</span>
+<span class="px-3 py-1.5 bg-gray-100 dark:bg-surface-dark border border-transparent hover:border-primary text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium transition-colors">Colaboração</span>
+<span class="px-3 py-1.5 bg-gray-100 dark:bg-surface-dark border border-transparent hover:border-primary text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium transition-colors">Perfil Analítico</span>
+<span class="px-3 py-1.5 bg-gray-100 dark:bg-surface-dark border border-transparent hover:border-primary text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium transition-colors">Foco em Resultados</span>
+</div>
+</div>
+</section>
+<section class="space-y-4">
+<div class="flex items-center justify-between">
+<h3 class="text-lg font-bold text-accent-black dark:text-white">Formação</h3>
+<div class="h-px bg-gray-200 dark:bg-gray-800 flex-grow ml-4"></div>
+</div>
+<div class="space-y-3">
+<div class="flex gap-4 items-start p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-surface-dark/50 transition-colors">
+<div class="bg-gray-100 dark:bg-surface-dark p-2.5 rounded-lg shrink-0 border border-gray-200 dark:border-gray-700 text-accent-black dark:text-white">
+<span class="material-icons-round text-xl">school</span>
+</div>
+<div>
+<h4 class="font-bold text-sm text-accent-black dark:text-white">Curso em vídeo</h4>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Cursando atualmente</p>
+</div>
+</div>
+<div class="flex gap-4 items-start p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-surface-dark/50 transition-colors">
+<div class="bg-gray-100 dark:bg-surface-dark p-2.5 rounded-lg shrink-0 border border-gray-200 dark:border-gray-700 text-accent-black dark:text-white">
+<span class="material-icons-round text-xl">code</span>
+</div>
+<div>
+<h4 class="font-bold text-sm text-accent-black dark:text-white">Curso Dev Club</h4>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Completo com Projeto</p>
+<div class="mt-2 flex items-center gap-1 text-[10px] font-bold text-primary uppercase tracking-wide">
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="pt-8 text-center text-xs text-gray-400 dark:text-gray-600 pb-safe">
+<p class="font-mono">LUCAS VIVAS SAMPAIO © 2024</p>
+</footer>
+</main>
+<div class="fixed bottom-6 right-6 z-40">
+<a class="bg-primary hover:bg-primary-dark text-accent-black w-14 h-14 rounded-full shadow-lg shadow-primary/30 flex items-center justify-center hover:scale-110 transition-transform duration-200" href="mailto:lucas.sampaio27122009@gmail.com">
+<span class="material-icons-round text-2xl">send</span>
+</a>
+</div>
+<script>
+    // Dark mode toggle logic
+    const toggleButton = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const html = document.documentElement;
+    // Function to update icon
+    const updateIcon = (isDark) => {
+        themeIcon.textContent = isDark ? 'light_mode' : 'dark_mode';
+    };
+    // Check local storage or system preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        html.classList.add('dark');
+        updateIcon(true);
+    } else {
+        html.classList.remove('dark');
+        updateIcon(false);
+    }
+    // Toggle handler
+    toggleButton.addEventListener('click', () => {
+        if (html.classList.contains('dark')) {
+            html.classList.remove('dark');
+            localStorage.theme = 'light';
+            updateIcon(false);
+        } else {
+            html.classList.add('dark');
+            localStorage.theme = 'dark';
+            updateIcon(true);
+        }
+    });
+</script>
+
+</body></html>
